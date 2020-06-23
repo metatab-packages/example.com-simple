@@ -1,0 +1,37 @@
+Declare,metatab-latest
+Title,Super Simple Data Package
+Description,A data package with just one file
+Identifier,35d042fb-117f-4736-bfb0-a92aceef243a
+Name,example.com-simple-1.1.1
+Dataset,simple
+Origin,example.com
+Time,
+Space,
+Grain,
+Variant,
+Version,1.1.1
+Version.Major,1
+Version.Minor,1
+Version.Patch,1
+Redistribution,hidden
+Created,2020-06-22T17:33:23
+Modified,2020-06-22T17:35:57
+Giturl,https://github.com/metatab-packages/example-collection.git
+
+Section,Contacts,Email,Organization,Url
+Wrangler,Eric Busboom,eric@civicknowledge.com,Civic Knowledge,http://civicknowledge.com
+
+Section,Documentation,Title,Description,
+Documentation,file:README.md,README,,
+
+Section,References,Name,Description,
+
+Section,Resources,Name,Description,
+Datafile,data/simple-example.csv,simple-example,A simple data file,
+
+Section,Schema,DataType,AltName,Description,Has_Codes
+Table,simple-example,,,,
+Table.Column,id,integer,,,
+Table.Column,uuid,string,,,
+Table.Column,int,integer,,,
+Table.Column,float,number,,,
